@@ -1,0 +1,5 @@
+<Alloy>
+    <Window class="vgroup" id="Window_1">
+        <ImageView class="reporting-cover top"/>
+    </Window>
+</Alloy>

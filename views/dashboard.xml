@@ -1,0 +1,66 @@
+<!--
+<Alloy>     
+    <Window backgroundColor="#fff" class="vgroup" id="win" onOpen="onInitLoad">
+        <SearchBar id="searchBar" platform="ios" class="search" onRefresh="onRefreshClick"  />
+        <Toolbar barColor="#FFA500" center="true" height="50" id="toolbar" onBookmark="onBookmarkClick" top="0">
+            <Items id="items">
+                <Label color="#fff" height="Ti.UI.SIZE" id="label1" right="50" shadowColor="#aaa" text="DASHBOARD" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" width="Ti.UI.SIZE"/>
+            </Items>
+        </Toolbar>
+        <DashboardView center="true" columnCount="2" id="dashboard" onClick="resetBadge" onCommit="handleCommit" onEdit="handleEdit" top="0" wobble="true">
+            <DashboardItem badge="10" image="/images/iphone/db-contacts.png" label="contacts" onClick="openMasterDirectory" selectedImage="/images/iphone/db-contacts-grey.png"/>
+            <DashboardItem badge="10" image="/images/iphone/db-projects.png" label="projects" onClick="openProjectMain" selectedImage="/images/iphone/db-projects-grey.png"/>
+            <DashboardItem image="/images/iphone/db-hotlist.png" label="hot list" onClick="openHotLists" selectedImage="/images/iphone/db-hotlist-grey.png"/>
+            <DashboardItem badge="23" image="/images/iphone/db-reporting.png" label="reporting" onClick="openReports" selectedImage="/images/iphone/db-reporting-grey.png"/>
+            <DashboardItem badge="23" image="/images/iphone/db-recent.png" label="recent" selectedImage="/images/iphone/db-recent-grey.png"/>
+            <DashboardItem badge="23" image="/images/iphone/db-settings.png" label="settings" selectedImage="/images/iphone/db-settings-grey.png"/>
+        </DashboardView>
+    </Window>
+    
+</Alloy>
+<Alloy>
+    <Window>
+        <View height="15%" left="0%" top="0%">
+            <ImageView class="dojo-cover" top="0%"/>
+            <Label color="white" right="8%" text="welcome," top="15%"/>
+            <Label class="textfield-med-full" color="white" right="8%" text="STEFAN" textAlign="Ti.UI.TEXT_ALIGNMENT_RIGHT" top="35%"/>
+        </View>
+        <DashboardView center="true" columnCount="2" height="75%" left="0.00%" top="15%" width="100%">
+            <DashboardItem class="db-contacts"/>
+            <DashboardItem class="db-projects"/>
+            <DashboardItem class="db-hotlist"/>
+            <DashboardItem class="db-reporting"/>
+            <DashboardItem class="db-recent"/>
+            <DashboardItem class="db-settings"/>
+        </DashboardView>
+        <View height="15%" left="0%" top="90%">
+            <ImageView class="dojo-bottom" top="0%"/>
+        </View>
+    </Window>
+</Alloy>
+--><Alloy>
+    <Window>
+        <View class="top" height="15%" left="0%">
+            <ImageView class="dojo-cover"/>
+            <Label color="white" right="8%" text="welcome," top="15%"/>
+            <Label class="textfield-med-full" color="white" right="8%" text="STEFAN" textAlign="Ti.UI.TEXT_ALIGNMENT_RIGHT" top="35%"/>
+        </View>
+        <View class="vgroup dashboard">
+            <View class="hgroup db-height">
+                <ImageView class="db-contacts db1"/>
+                <ImageView class="db-projects db2"/>
+            </View>
+            <View class="hgroup db-height">
+                <ImageView class="db-hotlist db1"/>
+                <ImageView class="db-reporting db2"/>
+            </View>
+            <View class="hgroup db-height">
+                <ImageView class="db-recent db1"/>
+                <ImageView class="db-calendar db2"/>
+            </View>
+        </View>
+        <View height="10%" top="90%">
+            <ImageView class="dojo-bottom" top="0%"/>
+        </View>
+    </Window>
+</Alloy>

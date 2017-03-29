@@ -1,0 +1,14 @@
+<Alloy>
+    <!-- Default App Window -->
+    <Require id="index" platform="android,windows" src="calendar"/>
+    <!-- iOS Window -->
+    <NavigationWindow class="container" id="nav" platform="ios">
+        <Require src="calendar"/>
+    </NavigationWindow>
+    <!-- MobileWeb -->
+    <Window platform="mobileweb">
+        <NavigationGroup class="container" id="nav">
+            <Require src="create-goal"/>
+        </NavigationGroup>
+    </Window>
+</Alloy>

@@ -1,0 +1,20 @@
+<Alloy>
+    <Window class="vgroup" id="Window_1">
+        <ImageView class="top" image="/images/iphone/project-hotlist-cover.png"/>
+        <View height="60">
+            <Label class="h2 top-buffer" text="Project Name"/>
+        </View>
+        <ListView>
+            <ListSection>
+                <ListItem height="90" title="Contact 1"/>
+                <ListItem height="90" title="Contact 2"/>
+                <ListItem height="90" title="Contact 3"/>
+                <ListItem height="90" title="Contact 4"/>
+                <ListItem height="90" title="Contact 5"/>
+                <ListItem height="90" title="Contact 6"/>
+                <ListItem height="90" title="Contact 7"/>
+                <ListItem height="90" title="Contact 8"/>
+            </ListSection>
+        </ListView>
+    </Window>
+</Alloy>

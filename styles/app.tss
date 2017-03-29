@@ -1,0 +1,577 @@
+/*
+
+This is your global styles file. Selectors and rules you define
+
+here will be applied throughout your app. However, these rules
+
+have the lowest priority of any style settings.
+
+For more information, see the "Style Priorities" section of
+
+http://docs.appcelerator.com/platform/latest/#!/guide/Alloy_Styles_and_Themes
+
+For example, the following would apply to all labels, windows,
+
+and text fields (depending on platform) in your app unless you
+
+overrode the settings with other TSS, XML, or JS settings:
+
+'Label[platform=android,windows]': {
+
+	color: '#000' // all platforms except Android and Windows default to black
+
+}
+
+'Window': {
+
+	backgroundColor: '#fff' // white background instead of default transparent or black
+
+}
+
+'TextField[platform=android]': {
+
+	height: Ti.UI.SIZE
+
+}
+
+*/
+"#View_1": {
+	"backgroundColor": "#ffffff",
+	"center": "100%",
+	"height": "45.70%",
+	"left": "4.93%",
+	"top": "17.03%",
+	"width": "90.00%",
+	"borderRadius": "10"
+},
+".header[platform=ios]": {
+	"left": "10%",
+	"top": "16.5%",
+	"color": "black"
+},
+".header[platform=android]": {
+	"left": "10%",
+	"top": "16.5%",
+	"color": "black"
+},
+".borderRadius10": {
+	"borderRadius": "10"
+},
+".borderRadius20": {
+	"borderRadius": "20"
+},
+".topCircle": {
+	"left": "41%",
+	"top": "1.5%",
+	"height": "150px",
+	"width": "150px",
+	"image": "/images/iphone/project-shuriken.png"
+},
+".topCircle[platform=ios formFactor=tablet]": {
+	"left": "43%",
+	"top": "2.25%",
+	"height": "200px",
+	"width": "200px",
+	"image": "/images/iphone/project-shuriken.png"
+},
+".topCircle[platform=android]": {
+	"left": "43%",
+	"top": "3.5%",
+	"height": "200px",
+	"width": "200px",
+	"image": "/images/iphone/project-shuriken.png"
+},
+".form1": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "65%",
+	"width": "90%"
+},
+".form1[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "40%",
+	"width": "90%"
+},
+".form2": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "50%",
+	"width": "90%"
+},
+".form2[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "35%",
+	"width": "90%"
+},
+".form3": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "55%",
+	"width": "90%"
+},
+".form3[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "40%",
+	"width": "90%"
+},
+".form4": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "90%",
+	"width": "90%"
+},
+".form4[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "70%",
+	"width": "90%"
+},
+".dojo-cover": {
+	"image": "/images/iphone/dojo-cover.png",
+	"width": "100%",
+	"height": "100%"
+},
+".dojo-bottom": {
+	"image": "/images/iphone/dojo-bottom.png",
+	"width": "100%",
+	"height": "100%"
+},
+/* Layouts and Fills */
+".vgroup": {
+	"layout": "vertical"
+},
+".hgroup": {
+	"layout": "horizontal"
+},
+".buffer": {
+	"top": 10,
+	"left": 10,
+	"right": 10,
+	"bottom": 10
+},
+".top-buffer": {
+	"top": 10
+},
+".left-buffer": {
+	"left": 10
+},
+".right-buffer": {
+	"right": 10
+},
+".bottom-buffer": {
+	"bottom": 10
+},
+".fill": {
+	"height": Ti.UI.FILL,
+	"width": Ti.UI.FILL
+},
+".span-width": {
+	"width": "100%",
+	"height": Ti.UI.SIZE
+},
+".bottom": {
+	"bottom": 0
+},
+".top": {
+	"top": 0
+},
+".right": {
+	"right": 0
+},
+".left": {
+	"left": 0
+},
+".size": {
+	"height": Ti.UI.SIZE,
+	"width": Ti.UI.SIZE
+},
+".separator": {
+	"height": 1,
+	"width": "90%",
+	"backgroundColor": "#acacac"
+},
+".bg-white": {
+	"backgroundColor": "white"
+},
+".bg-orange": {
+	"backgroundColor": "#f7941d"
+},
+".bg-blue": {
+	"backgroundColor": "#193441"
+},
+/*Buttons*/
+".button1": {
+	"left": "9.78%",
+	"width": "80%",
+	"height": "90px",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"selectedBackgroundColor": "#e5790e"
+},
+".button1[platform=android]": {
+	"left": "9.78%",
+	"width": "80%",
+	"height": "150px",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"selectedBackgroundColor": "#e5790e"
+},
+".button1-full": {
+	"left": "9.78%",
+	"width": "90%",
+	"height": "10%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"selectedBackgroundColor": "#e5790e"
+},
+".button2": {
+	"height": "90px",
+	"left": "10%",
+	"selectedColor": "#193341",
+	"width": "80%",
+	"backgroundColor": "#ffffff",
+	"borderColor": "#193341",
+	"borderRadius": "10",
+	"borderWidth": "2",
+	"color": "#193341"
+},
+".button2[platform=android]": {
+	"height": "150px",
+	"left": "10%",
+	"selectedColor": "#193341",
+	"width": "80%",
+	"backgroundColor": "#ffffff",
+	"borderColor": "#193341",
+	"borderRadius": "10",
+	"borderWidth": "2",
+	"color": "#193341"
+},
+".button3": {
+	"height": "90px",
+	"width": "80%",
+	"backgroundColor": "#193341",
+	"borderRadius": "10",
+	"color": "white"
+},
+".button-half1": {
+	"height": "90px",
+	"width": "39%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff",
+	"selectedBackgroundColor": "#e5790e"
+},
+".button-half2": {
+	"height": "90px",
+	"width": "39%",
+	"backgroundColor": "#ffffff",
+	"borderRadius": "10",
+	"color": "#193341",
+	"borderColor": "#193341"
+},
+".button-half1-full": {
+	"height": "90px",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
+".button-half1-full[platform=android]": {
+	"height": "150px",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
+".button-half2-full": {
+	"height": "90px",
+	"width": "44%",
+	"backgroundColor": "#ffffff",
+	"borderRadius": "10",
+	"color": "#193341",
+	"borderColor": "#193341"
+},
+".two-buttons": {
+	"left": "20"
+},
+".two-buttons[platform=ios formFactor=tablet]": {
+	"left": "50"
+},
+/*Font sizes and Typography*/
+".h1": {
+	"font": {fontSize:36}
+},
+".h1[platform=blackberry]": {
+	"font": {fontSize:30}
+},
+".h1[platform=android]": {
+	"font": {fontSize:36},
+	"color": "black"
+},
+".h2": {
+	"font": {fontSize:30}
+},
+".h2[platform=blackberry]": {
+	"font": {fontSize:24}
+},
+".h2[platform=android]": {
+	"font": {fontSize:30},
+	"color": "black"
+},
+".h3": {
+	"font": {fontSize:24}
+},
+".h3[platform=blackberry]": {
+	"font": {fontSize:18}
+},
+".h3[platform=android]": {
+	"font": {fontSize:24},
+	"color": "black"
+},
+".h4": {
+	"font": {fontSize:18}
+},
+".h4[platform=blackberry]": {
+	"font": {fontSize:14}
+},
+".h4[platform=android]": {
+	"font": {fontSize:18},
+	"color": "black"
+},
+".h5": {
+	"font": {fontSize:14}
+},
+".h5[platform=blackberry]": {
+	"font": {fontSize:12}
+},
+".h5[platform=android]": {
+	"font": {fontSize:14},
+	"color": "black"
+},
+".h6": {
+	"font": {fontSize:12}
+},
+".h6[platform=blackberry]": {
+	"font": {fontSize:10}
+},
+".h6[platform=android]": {
+	"font": {fontSize:12},
+	"color": "black"
+},
+".grey": {
+	"color": "#9d9d9d"
+},
+".grey[platform=android]": {
+	"color": "#9d9d9d"
+},
+/*Font awesome*/
+".fa-plus-circle": {
+	"text": "\uf055"
+},
+/*Messaging Colors*/
+".message-grey": {
+	"backgroundColor": "#ececec",
+	"borderRadius": "10",
+	"color": "black",
+	"width": "70%"
+},
+".message-orange": {
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"width": "70%"
+},
+/*Text for Forms*/
+".textfield": {
+	"font": {fontSize:'Ti.UI.SIZE',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT,
+	"width": "80%"
+},
+".textfield[platform=ios formFactor=tablet]": {
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT,
+	"width": "80%"
+},
+/*Text (set width in xml)*/
+".textfield-med-full": {
+	"font": {fontSize:'30',fontFamily:'',fontStyle:'',fontWeight:'normal'}
+},
+".textfield-med-full[platform=ios formFactor=tablet]": {
+	"font": {fontSize:'45',fontFamily:'',fontStyle:'',fontWeight:'normal'}
+},
+/*Textfield with widths (for text entry and forms)*/
+".textfield600": {
+	"width": "600px",
+	"height": "100px",
+	"backgroundColor": "#ececec",
+	"left": "10%",
+	"borderRadius": "10"
+},
+".textfield600[platform=ios formFactor=tablet]": {
+	"width": "80%",
+	"height": "100px",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10"
+},
+".textfield600[platform=android]": {
+	"width": "80%",
+	"height": "175px",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10",
+	"color": "black"
+},
+/*LABELS*/
+".label-center": {
+	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER
+},
+".label-center[platform=android]": {
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER
+},
+".label-left": {
+	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT
+},
+".label-left[platform=android]": {
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT
+},
+".label-right": {
+	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_RIGHT
+},
+".label-right[platform=android]": {
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_RIGHT
+},
+/* Views */
+".view700": {
+	"height": "700px",
+	"width": "750px"
+},
+".view700[platform=ios formFactor=tablet]": {
+	"height": "700px",
+	"width": "850px"
+},
+".view700[platform=android]": {
+	"height": "1250px",
+	"width": "1400px"
+},
+/*Dashbaord*/
+".db1": {
+	"left": ".25%",
+	"width": "49.5%",
+	"height": "100%"
+},
+".db2": {
+	"width": "49.5%",
+	"height": "100%"
+},
+".db-height": {
+	"height": "300px"
+},
+".db-height[platform=android]": {
+	"height": "576px"
+},
+".dashboard": {
+	"height": "75%",
+	"top": "15%"
+},
+".dashboard[platform=android]": {
+	"height": "75%",
+	"top": "15%"
+},
+".db-contacts": {
+	"image": "/images/iphone/db-contacts.png",
+	"selectedImage": "/images/iphone/db-contacts-grey.png"
+},
+".db-contacts[platform=android]": {
+	"image": "/images/android/db-android-contacts.png",
+	"selectedImage": "/images/android/db-android-contacts-grey.png"
+},
+".db-contacts[platform=ios formFactor=tablet]": {
+},
+".db-projects": {
+	"image": "/images/iphone/db-projects.png",
+	"selectedImage": "/images/iphone/db-projects-grey.png"
+},
+".db-projects[platform=android]": {
+	"image": "/images/android/db-android-projects.png",
+	"selectedImage": "/images/android/db-android-projects-grey.png"
+},
+".db-projects[platform=ios formFactor=tablet]": {
+},
+".db-hotlist": {
+	"image": "/images/iphone/db-hotlist.png",
+	"selectedImage": "/images/iphone/db-hotlist-grey.png"
+},
+".db-hotlist[platform=android]": {
+	"image": "/images/android/db-android-hotlist.png",
+	"selectedImage": "/images/android/db-android-hotlist-grey.png"
+},
+".db-hotlist[platform=ios formFactor=tablet]": {
+},
+".db-reporting": {
+	"image": "/images/iphone/db-reporting.png",
+	"selectedImage": "/images/iphone/db-reporting-grey.png"
+},
+".db-reporting[platform=android]": {
+	"image": "/images/android/db-android-reporting.png",
+	"selectedImage": "/images/android/db-android-reporting-grey.png"
+},
+".db-reporting[platform=ios formFactor=tablet]": {
+},
+".db-recent": {
+	"image": "/images/iphone/db-recent.png",
+	"selectedImage": "/images/iphone/db-recent-grey.png"
+},
+".db-recent[platform=android]": {
+	"image": "/images/android/db-android-recent.png",
+	"selectedImage": "/images/android/db-android-recent-grey.png"
+},
+".db-recent[platform=ios formFactor=tablet]": {
+},
+".db-settings": {
+	"image": "/images/iphone/db-settings.png",
+	"selectedImage": "/images/iphone/db-settings-grey.png"
+},
+".db-settings[platform=android]": {
+	"image": "android/db-android-settings.png",
+	"selectedImage": "android/db-android-settings-grey.png"
+},
+".db-settings[platform=ios formFactor=tablet]": {
+},
+".db-calendar": {
+	"image": "/images/iphone/db-calendar.png",
+	"selectedImage": "/images/iphone/db-calendar-grey.png"
+},
+".db-calendar[platform=android]": {
+	"image": "/images/android/db-android-calendar.png",
+	"selectedImage": "/images/android/db-android-calendar-grey.png"
+},
+".db-calendar[platform=ios formFactor=tablet]": {
+},
+".side-scroll": {
+	"width": "750"
+},
+".side-scroll[platform=ios formFactor=tablet]": {
+	"width": "1050"
+},
+".side-scroll[platform=android]": {
+	"width": "800"
+}

@@ -1,0 +1,16 @@
+<Alloy>
+	<Window backgroundColor="#f3f3f3">
+		<View class="vgroup">
+			<ImageView class="login-logo"/>
+			<Label class="login-title h2" text="Log In"/>
+			<View class="view700 bg-white vgroup top-buffer">
+				 <TextField class="textfield600" top="40" hintText="Username or Email"/>
+                 <TextField class="textfield600 top-buffer" hintText="Password"/>
+                 <Button class="button1 top-buffer">Log In</Button>
+                 <Label class="h5" top="30" text="Don't have an account?"/>
+                 <Button class="button1 top-buffer" backgroundColor="#8dc63f">Sign Up</Button>
+			</View>
+			<Label class="h5" top="25" text="Forgot Password?"/>
+		</View>
+	</Window>
+</Alloy>

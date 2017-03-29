@@ -1,0 +1,23 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window",
+},
+".contacts-title": {
+	"top": "15%"
+},
+".contacts-title[platform=ios formFactor=tablet]": {
+	"top": "25%"
+},
+".contacts-title[platform=android]": {
+	"top": "10%"
+},
+".textfield-cn": {
+	
+},
+".textfield-cn[platform=ios formFactor=tablet]": {
+	
+},
+".textfield-cn[platform=android]": {
+	
+}
