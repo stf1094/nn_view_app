@@ -16,5 +16,17 @@
 	"top": "6%",
 	"left": "7%"
 },
+".ac-btns": {
+	"height": "7.5%",
+	"top": "35"
+},
+".ac-btns[platform=ios formFactor=tablet]": {
+	"height": "100px",
+	"top": "35"
+},
+".ac-btns[platform=android]": {
+	"height": "6.51%",
+	"top": "25"
+}
 
 

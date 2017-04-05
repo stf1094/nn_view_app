@@ -3,60 +3,30 @@
 "#Window_1": {
 	"title": "Window"
 },
+".project-holder" : {
+	"image": "/images/iphone/project-holder-image.png",
+	"width": "80%",
+	"height": "65%"
+},
+".project-row": {
+	"height": "175"
+},
+".project-row[platform=android]": {
+	"height": "175"
+},
 "#ImageView_1": {
 	"left": "0.00%",
 	"top": "0.00%",
 	"height": "23.25%",
 	"width": "100%"
 },
-"#ListView_1": {
-	"height": "76.95%",
-	"left": "0.00%",
-	"top": "23.09%",
-	"width": "100.00%"
-},
-"#View_1": {
-	"height": "76.95%",
-	"left": "0.00%",
-	"top": "23.05%",
-	"width": "100.00%",
-	"borderRadius": "0"
-},
-"#Button_1": {
-	"left": "6.67%",
-	"top": "1.15%",
+".btn-projects": {
+	"left": "9.78%",
+	"width": "90%",
+	"height": "8%",
 	"backgroundColor": "#f7941d",
-	"borderWidth": "0",
-	"color": "#ffffff",
-	"height": "9%",
-	"width": "86.53%"
+	"borderRadius": "10",
+	"color": "white",
+	"selectedBackgroundColor": "#e5790e"
 },
-"#ImageView_2": {
-	"left": "7.5%",
-	"top": "15%",
-	"width": "40%",
-	"height": "25%"
-},
-"#ImageView_3": {
-	"top": "15%",
-	"right": "7.5%",
-	"width": "40%",
-	"height": "25%"
-},
-"#Label_1": {
-	"color": "#000000",
-	"font": {fontSize:'3.5%',fontFamily:'',fontStyle:'',fontWeight:''},
-	"height": "5.95%",
-	"left": "6.67%",
-	"top": "39.67%",
-	"width": "40%",
-},
-"#Label_2": {
-	"text": "Label",
-	"left": "53.20%",
-	"top": "39.67%",
-	"color": "#000000",
-	"font": {fontSize:'3.5%',fontFamily:'',fontStyle:'',fontWeight:''},
-	"height": "5.95%",
-	"width": "40%"
-}
+

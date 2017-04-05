@@ -5,9 +5,9 @@
             <Label class="h5 project-subtitle" top="5">What would you like to name your project?</Label>
             <Label class="h5 project-subtitle" top="5">Ex: Achieve Your Next Rank</Label>
             <TextField class="textfield-project" top="15"/>
-            <View class="hgroup two-buttons" top="35">
-                <Button class="button-half1-full">Back</Button>
-                <Button class="button-half1-full" left="20">Next</Button>
+            <View class="hgroup two-buttons" height="13.5%" top="30">
+                <Button class="btn-form2" height="100%">Back</Button>
+                <Button class="btn-form2" height="100%" left="20">Next</Button>
             </View>
         </View>
         <ImageView class="topCircle" image="/images/iphone/project-shuriken.png"/>

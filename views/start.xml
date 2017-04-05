@@ -7,9 +7,9 @@
                 <ImageView class="calendar-icon-square" image="/images/iphone/calendar-icon.png"/>
                 <TextField class="textfield-date"/>
             </View>
-            <View class="hgroup two-buttons" top="35">
-                <Button class="button-half1-full">Back</Button>
-                <Button class="button-half1-full" left="20">Next</Button>
+            <View class="hgroup two-buttons" height="13.5%"top="25">
+                <Button class="btn-form2" height="100%">Back</Button>
+                <Button class="btn-form2" height="100%" left="20">Next</Button>
             </View>
         </View>
         <ImageView class="topCircle" image="/images/iphone/project-shuriken.png"/>

@@ -63,8 +63,8 @@ overrode the settings with other TSS, XML, or JS settings:
 ".topCircle": {
 	"left": "41%",
 	"top": "1.5%",
-	"height": "150px",
-	"width": "150px",
+	"height": "12%",
+	"width": "20%",
 	"image": "/images/iphone/project-shuriken.png"
 },
 ".topCircle[platform=ios formFactor=tablet]": {
@@ -77,8 +77,8 @@ overrode the settings with other TSS, XML, or JS settings:
 ".topCircle[platform=android]": {
 	"left": "43%",
 	"top": "3.5%",
-	"height": "200px",
-	"width": "200px",
+	"height": "8.75%",
+	"width": "13.88%",
 	"image": "/images/iphone/project-shuriken.png"
 },
 ".form1": {
@@ -305,6 +305,81 @@ overrode the settings with other TSS, XML, or JS settings:
 	"color": "#193341",
 	"borderColor": "#193341"
 },
+".btn-form1": {
+	"height": "10.38%",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
+".btn-form1[platform=android]": {
+	"height": "9%",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
+".btn-blue-form1": {
+	"height": "10.38%",
+	"width": "44%",
+	"backgroundColor": "white",
+	"borderRadius": "10",
+	"color": "#193441",
+	"borderColor": "#193441",
+	"borderWidth": "2"
+},
+".btn-blue-form1[platform=android]": {
+	"height": "9%",
+	"width": "44%",
+	"backgroundColor": "white",
+	"borderRadius": "10",
+	"color": "#ffffff",
+	"color": "#193441",
+	"borderColor": "#193441",
+	"borderWidth": "2"
+},
+".btn-form2": {
+	"height": "13.5%",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
+".btn-form2[platform=android]": {
+	"height": "11.72%",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
+".btn-form3": {
+	"height": "12.26%",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
+".btn-form3[platform=android]": {
+	"height": "10.65%",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
+".btn-form4": {
+	"height": "7.5%",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
+".btn-form4[platform=android]": {
+	"height": "6.51%",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
 ".two-buttons": {
 	"left": "20"
 },
@@ -483,10 +558,10 @@ overrode the settings with other TSS, XML, or JS settings:
 	"height": "100%"
 },
 ".db-height": {
-	"height": "300px"
+	"height": "33%"
 },
 ".db-height[platform=android]": {
-	"height": "576px"
+	"height": "33.33%"
 },
 ".dashboard": {
 	"height": "75%",

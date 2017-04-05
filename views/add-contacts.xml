@@ -6,9 +6,9 @@
             <Label class="h5 top-buffer" left="7%">You've selected x/100 contacts</Label>
             <!--Contact List-->
             <View class="bg-white" height="54%"/>
-            <View class="hgroup two-buttons" top="35">
-                <Button class="button-half1-full">Back</Button>
-                <Button class="button-half1-full" left="20">Next</Button>
+            <View class="hgroup two-buttons ac-btns">
+                <Button class="btn-form4" height="100%">Back</Button>
+                <Button class="btn-form4" height="100%" left="20">Next</Button>
             </View>
         </View>
         <ImageView class="topCircle" image="/images/iphone/project-shuriken.png"/>

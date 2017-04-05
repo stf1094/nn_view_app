@@ -1,12 +1,42 @@
 <Alloy>
     <Window id="Window_1" title="Projects">
-        <ImageView id="ImageView_1" image="/images/iphone/ui-projects-cover.png"/>
-        <View id="View_1">
-            <Button class="button1-full" left="5%" top="1%">Create a Project</Button>/&amp;amp;amp;amp;amp;gt;
-        <ImageView id="ImageView_2" image="/images/iphone/project-holder-image.png"/>
-            <ImageView id="ImageView_3" image="/images/iphone/project-holder-image.png"/>
-            <Label class="label-center" left="7%" top="41%" width="40%">Project Name</Label>/&amp;amp;amp;gt;
-            <Label class="label-center" right="7%" top="41%" width="40%">Project Name</Label>/&amp;amp;amp;gt;
+        <View class="vgroup bg-white">
+            <ImageView id="ImageView_1" image="/images/iphone/ui-projects-cover.png"/>
+            <Button class="btn-projects" left="5%" top="1%">Create a Project</Button>
+            <ScrollView>
+                <View class="vgroup top-buffer" left="3%">
+                    <View class="hgroup project-row top-buffer">
+                        <View class="vgroup" width="49%">
+                            <ImageView class="project-holder"/>
+                            <Label class="h5 top-buffer" text="Project Name"/>
+                        </View>
+                        <View class="vgroup" width="49%">
+                            <ImageView class="project-holder"/>
+                            <Label class="h5 top-buffer" text="Project Name"/>
+                        </View>
+                    </View>
+                    <View class="hgroup project-row">
+                        <View class="vgroup" width="49%">
+                            <ImageView class="project-holder"/>
+                            <Label class="h5 top-buffer" text="Project Name"/>
+                        </View>
+                        <View class="vgroup" width="49%">
+                            <ImageView class="project-holder"/>
+                            <Label class="h5 top-buffer" text="Project Name"/>
+                        </View>
+                    </View>
+                    <View class="hgroup project-row">
+                        <View class="vgroup" width="49%">
+                            <ImageView class="project-holder"/>
+                            <Label class="h5 top-buffer" text="Project Name"/>
+                        </View>
+                        <View class="vgroup" width="49%">
+                            <ImageView class="project-holder"/>
+                            <Label class="h5 top-buffer" text="Project Name"/>
+                        </View>
+                    </View>
+                </View>
+            </ScrollView>
         </View>
     </Window>
 </Alloy>

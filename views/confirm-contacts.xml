@@ -2,9 +2,9 @@
     <Window backgroundColor="#193441" id="Window_1">
         <View class="form2 bg-white vgroup borderRadius10">
             <Label class="h4 confirm-contacts-title" text="If you start today, you'll have to contact x people per day. Is this correct?" width="80%"/>
-            <Button class="button2" top="20">Yes, lets go with this!</Button>
-            <Button class="button2 top-buffer">No, choose more contacts</Button>
-            <Button class="button2 top-buffer">Set a different start date</Button>
+            <Button class="btn2" top="15">Yes, lets go with this!</Button>
+            <Button class="btn2 top-buffer">No, choose more contacts</Button>
+            <Button class="btn2 top-buffer">Set a different start date</Button>
         </View>
         <ImageView class="topCircle" image="/images/iphone/project-shuriken.png"/>
     </Window>

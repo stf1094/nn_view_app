@@ -22,8 +22,8 @@
 	"left": "7%"
 },
 ".textfield-create-goal": {
-	"width": "600px",
-	"height": "100px",
+	"width": "85%",
+	"height": "13.62%",
 	"backgroundColor": "#ececec",
 	"borderRadius": "10"
 },
@@ -36,7 +36,7 @@
 },
 ".textfield-create-goal[platform=android]": {
 	"width": "84%",
-	"height": "175px",
+	"height": "14%",
 	"backgroundColor": "#ececec",
 	"borderRadius": "10",
 	"left": "7%",

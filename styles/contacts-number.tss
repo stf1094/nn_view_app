@@ -13,11 +13,20 @@
 	"top": "10%"
 },
 ".textfield-cn": {
-	
+	"width": "85%",
+	"height": "15%",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10"
 },
 ".textfield-cn[platform=ios formFactor=tablet]": {
-	
+	"width": "85%",
+	"height": "100px",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10"
 },
 ".textfield-cn[platform=android]": {
-	
+	"width": "85%",
+	"height": "13.67%",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10"
 }

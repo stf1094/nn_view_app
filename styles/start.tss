@@ -13,24 +13,25 @@
 	"left": "15"
 },
 ".calendar-icon-square[platform=android]":{
-	"height": "150px",
-	"width": "150px",
+	"height": "100%",
+	"width": "17%",
 	"left": "15"
 },
 ".choose-start-date": {
-	"height": "100px"
+	"height": "15%"
 },
 ".choose-start-date[platform=android]": {
-	"height": "175px"
+	"height": "17%"
 },
 ".textfield-date": {
-	"height": "90px",
-	"width": "300px",
+	"height": "100%",
+	"width": "50%",
 	"backgroundColor": "#ececec"
 },
 ".textfield-date[platform=android]": {
-	"height": "150px",
-	"width": "450px",
-	"backgroundColor": "#ececec"
+	"height": "100%",
+	"width": "50%",
+	"backgroundColor": "#ececec",
+	"color": "black"
 },
 
