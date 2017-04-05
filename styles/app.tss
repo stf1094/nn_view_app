@@ -313,7 +313,7 @@ overrode the settings with other TSS, XML, or JS settings:
 	"color": "#ffffff"
 },
 ".btn-form1[platform=android]": {
-	"height": "9%",
+	"height": "12%",
 	"width": "44%",
 	"backgroundColor": "#f7941d",
 	"borderRadius": "10",
@@ -329,7 +329,7 @@ overrode the settings with other TSS, XML, or JS settings:
 	"borderWidth": "2"
 },
 ".btn-blue-form1[platform=android]": {
-	"height": "9%",
+	"height": "12%",
 	"width": "44%",
 	"backgroundColor": "white",
 	"borderRadius": "10",

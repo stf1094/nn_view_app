@@ -3,7 +3,7 @@
   
 },
 ".deadline-title": {
-	"top": "15%",
+	"top": "18%",
 	"left": "25"
 },
 ".deadline-title[platform=ios formFactor=tablet]": {

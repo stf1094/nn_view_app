@@ -1,10 +1,14 @@
 
 ".start-title" : {
-  "top": "15%",
+  "top": "18%",
   "left": "25"
 },
 ".start-title[platform=ios formFactor=tablet]" : {
   "top": "25%",
+  "left": "7%"
+},
+".start-title[platform=android]" : {
+  "top": "14%",
   "left": "7%"
 },
 ".calendar-icon-square":{
