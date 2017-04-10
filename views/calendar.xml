@@ -1,7 +1,9 @@
 <Alloy>
     <Window id="Window_1">
-        <View class="vgroup">
-            <ImageView class="calendar-cover"/>
+    	<ImageView class="calendar-cover top"/>
+    	<Label class="ticker h4" color="white" text="Which calendar"/>
+        <View class="vgroup events">
+            
             <ScrollView class="vgroup" id="ScrollView_1">
                 <!--Date-->
                 <View backgroundColor="#ececec" height="35" width="100%">

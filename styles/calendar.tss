@@ -18,4 +18,28 @@
 ".calendar-cover[platform=ios formFactor=tablet]": {
 	"image": "/images/ipad/calendar-cover-ipad.png"
 },
+".ticker": {
+	"color": "white",
+	"left": "5%",
+	"top": "11%"
+},
+".ticker[platform=ios formFactor=tablet]": {
+	"color": "white",
+	"left": "10%",
+	"top": "11%"
+},
+".ticker[platform=android]": {
+	"color": "white",
+	"left": "6.5%",
+	"top": "12%"
+},
+".events": {
+	"top": "17%"
+},
+".events[platform=ios formFactor=tablet]": {
+	"top": "15.5%"
+},
+".events[platform=android]": {
+	"top": "20%"
+}
 

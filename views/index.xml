@@ -1,9 +1,9 @@
 <Alloy>
     <!-- Default App Window -->
-    <Require id="index" platform="android,windows" src="confirm-contacts"/>
+    <Require id="index" platform="android,windows" src="calendar"/>
     <!-- iOS Window -->
     <NavigationWindow class="container" id="nav" platform="ios">
-        <Require src="create-goal"/>
+        <Require src="hot-list"/>
     </NavigationWindow>
     <!-- MobileWeb -->
     <Window platform="mobileweb">
