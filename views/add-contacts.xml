@@ -3,9 +3,10 @@
         <View class="form4 vgroup bg-white borderRadius10">
             <Label class="h2 add-contacts-title" text="Add Your Contacts"/>
             <Label class="h5 top-buffer" left="7%" width="80%">Who are you going to contact to achieve this goal?</Label>
+            <Button class="top-buffer ac-button-green">Add Your Contacts</Button>
             <Label class="h5 top-buffer" left="7%">You've selected x/100 contacts</Label>
             <!--Contact List-->
-            <View class="bg-white" height="54%"/>
+            <View class="bg-white" height="43%"/>
             <View class="hgroup two-buttons ac-btns">
                 <Button class="btn-form4" height="100%">Back</Button>
                 <Button class="btn-form4" height="100%" left="20">Next</Button>

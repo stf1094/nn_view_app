@@ -1,6 +1,6 @@
 <Alloy>
-    <Window id="Window_1" title="Recent" class="vgroup">
-    	<ImageView class="top size" image="/images/iphone/recent-cover.png"></ImageView>
+    <Window class="vgroup" id="Window_1" title="Recent">
+        <ImageView class="top size" image="/images/iphone/recent-cover.png"/>
         <TableView id="TableView_1">
             <TableViewRow class="hgroup" height="140px">
                 <ImageView class="top-buffer left-buffer" height="100px" image="/images/iphone/project-shuriken.png" width="100px"/>
@@ -9,8 +9,8 @@
                     <Label class="h6 grey left-buffer" top="5">This this the most recent message</Label>
                 </View>
                 <View class="hgroup time-day">
-                	<Label class="h6 grey left-buffer top-buffer">TimeDay</Label>
-                	<ImageView class=" left-buffer top-buffer rightArrow"></ImageView>
+                    <Label class="h6 grey left-buffer top-buffer">TimeDay</Label>
+                    <ImageView class=" left-buffer top-buffer rightArrow"/>
                 </View>
             </TableViewRow>
             <TableViewRow class="hgroup" height="140px">
@@ -20,8 +20,8 @@
                     <Label class="h6 grey left-buffer" top="5">This this the most recent message</Label>
                 </View>
                 <View class="hgroup time-day">
-                	<Label class="h6 grey left-buffer top-buffer">TimeDay</Label>
-                	<ImageView class=" left-buffer top-buffer rightArrow"></ImageView>
+                    <Label class="h6 grey left-buffer top-buffer">TimeDay</Label>
+                    <ImageView class=" left-buffer top-buffer rightArrow"/>
                 </View>
             </TableViewRow>
             <TableViewRow class="hgroup" height="140px">
@@ -31,8 +31,8 @@
                     <Label class="h6 grey left-buffer" top="5">This this the most recent message</Label>
                 </View>
                 <View class="hgroup time-day">
-                	<Label class="h6 grey left-buffer top-buffer">TimeDay</Label>
-                	<ImageView class=" left-buffer top-buffer rightArrow"></ImageView>
+                    <Label class="h6 grey left-buffer top-buffer">TimeDay</Label>
+                    <ImageView class=" left-buffer top-buffer rightArrow"/>
                 </View>
             </TableViewRow>
             <TableViewRow class="hgroup" height="140px">
@@ -42,8 +42,8 @@
                     <Label class="h6 grey left-buffer" top="5">This this the most recent message</Label>
                 </View>
                 <View class="hgroup time-day">
-                	<Label class="h6 grey left-buffer top-buffer">TimeDay</Label>
-                	<ImageView class=" left-buffer top-buffer rightArrow"></ImageView>
+                    <Label class="h6 grey left-buffer top-buffer">TimeDay</Label>
+                    <ImageView class=" left-buffer top-buffer rightArrow"/>
                 </View>
             </TableViewRow>
         </TableView>

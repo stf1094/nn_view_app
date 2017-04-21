@@ -2,3 +2,49 @@
 ".container" : {
   
 }
+
+".eg-textfield": {
+	"backgroundColor": "#ececec",
+	"color": "black",
+	"borderRadius": "10",
+	"left": "5%",
+	"height": "100%",
+	"width": "85%"
+},
+".eg-textfield[platform=ios formFactor=tablet]": {
+	"backgroundColor": "#ececec",
+	"color": "black",
+	"borderRadius": "10",
+	"left": "5%",
+	"height": "100px",
+	"width": "85%"
+},
+
+".calendar-icon-square":{
+	"height": "90px",
+	"width": "90px",
+	"left": "15"
+},
+".calendar-icon-square[platform=android]":{
+	"height": "100%",
+	"width": "13%",
+	"left": "15"
+},
+
+".textfield-date": {
+	"height": "100%",
+	"width": "50%",
+	"backgroundColor": "#ececec"
+},
+".textfield-date[platform=android]": {
+	"height": "100%",
+	"width": "50%",
+	"backgroundColor": "#ececec",
+	"color": "black"
+},
+".textfield-date[platform=ios formFactor=tablet]": {
+	"height": "90px",
+	"width": "50%",
+	"backgroundColor": "#ececec",
+	"color": "black"
+},

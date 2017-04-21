@@ -28,5 +28,26 @@
 	"height": "7%",
 	"top": "25"
 }
+".ac-button-green": {
+	"backgroundColor": "#8dc63f",
+	"color": "white",
+	"height": "7.5%",
+	"width": "85%",
+	"borderRadius": "10"
+},
+".ac-button-green[platform=ios formFactor=tablet]": {
+	"backgroundColor": "#8dc63f",
+	"color": "white",
+	"height": "100px",
+	"width": "85%",
+	"borderRadius": "10"
+},
+".ac-button-green[platform=android]": {
+	"backgroundColor": "#8dc63f",
+	"color": "white",
+	"height": "7%",
+	"width": "85%",
+	"borderRadius": "10"
+}
 
 
